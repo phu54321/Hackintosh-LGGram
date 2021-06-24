@@ -1258,7 +1258,7 @@
 			<key>AppleSecureBoot</key>
 			<true/>
 			<key>AppleSmcIo</key>
-			<true/>
+			<false/>
 			<key>AppleUserInterfaceTheme</key>
 			<false/>
 			<key>DataHub</key>
