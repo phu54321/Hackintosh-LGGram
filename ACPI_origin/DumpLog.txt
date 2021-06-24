@@ -1,0 +1,126 @@
+5:609  1:252  Found UEFI Acpi 2.0 RSDP at 6fb0d014
+5:609  0:000  Saving ACPI tables from RSDP 6fb0d014 to ACPI\origin ...
+5:609  0:000   6fb0d014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+5:630  0:021    (Xsdt: 6fb0a188, Rsdt: 6fb0a0c4)
+5:630  0:000    6fb0a188: 'XSDT', 'LGPC', Rev: 1, Len: 284 -> XSDT.aml
+5:651  0:020    6fb0a0c4: 'RSDT', 'LGPC', Rev: 1, Len: 160 -> RSDT.aml
+5:670  0:019    Tables in Xsdt: 31
+5:670  0:000    0. 6d745000: 'FACP', 'LGPC', Rev: 6, Len: 276 -> FACP.aml
+5:697  0:026        (Dsdt: 6D6FD000, Facs: 6FA0C000, XDsdt: 6d6fd000, XFacs: 0)
+5:697  0:000        6d6fd000: 'DSDT', 'LGPC', Rev: 2, Len: 268018 -> DSDT.aml
+5:727  0:029        6fa0c000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+5:746  0:018    1. 6d7e9000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6940 -> SSDT-0-CpuSsdt.aml (Found hidden SSDT 9 pcs)
+5:764  0:018        * 1871605912: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1343  53 53 44 54 3F 05 00 00 02 1C 50 6D 52 65 66 00 Internal length = 1343 -> SSDT-x0_0-Cpu0Ist.aml
+5:783  0:018        * 1871544344: 'SSDT', 'ApIst', Rev: 2, Len: 1532  53 53 44 54 FC 05 00 00 02 23 50 6D 52 65 66 00 Internal length = 1532 -> SSDT-x0_1-ApIst.aml
+5:802  0:018        * 1871546008: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1024  53 53 44 54 00 04 00 00 02 D9 50 6D 52 65 66 00 Internal length = 1024 -> SSDT-x0_2-Cpu0Cst.aml
+5:820  0:018        * 1871551128: 'SSDT', 'ApCst', Rev: 2, Len: 778  53 53 44 54 0A 03 00 00 02 E9 50 6D 52 65 66 00 Internal length = 778 -> SSDT-x0_3-ApCst.aml
+5:843  0:023        * 1871607960: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 283  53 53 44 54 1B 01 00 00 02 61 50 6D 52 65 66 00 Internal length = 283 -> SSDT-x0_4-Cpu0Hwp.aml
+5:861  0:017        * 1871608600: 'SSDT', 'ApHwp', Rev: 2, Len: 791  53 53 44 54 17 03 00 00 02 E3 50 6D 52 65 66 00 Internal length = 791 -> SSDT-x0_5-ApHwp.aml
+5:879  0:018        * 1871548440: 'SSDT', 'HwpLvt', Rev: 2, Len: 1828  53 53 44 54 24 07 00 00 02 CA 50 6D 52 65 66 00 Internal length = 1828 -> SSDT-x0_6-HwpLvt.aml
+5:897  0:017        * 1871607576: 'SSDT', 'Cpu0Psd', Rev: 2, Len: 244  53 53 44 54 F4 00 00 00 02 37 50 6D 52 65 66 00 Internal length = 244 -> SSDT-x0_7-Cpu0Psd.aml
+5:914  0:017        * 1871540248: 'SSDT', 'ApPsd', Rev: 2, Len: 2736  53 53 44 54 B0 0A 00 00 02 AB 50 6D 52 65 66 00 Internal length = 2736 -> SSDT-x0_8-ApPsd.aml
+5:935  0:021  
+5:935  0:000    2. 6d7e8000: 'SSDT', 'XnSsdt', Rev: 2, Len: 3642 -> SSDT-1-XnSsdt.aml
+5:952  0:017    3. 6d7e3000: 'SSDT', 'FwiTable', Rev: 1, Len: 18082 -> SSDT-2-FwiTable.aml
+5:971  0:018    4. 6d7a5000: 'SSDT', 'DptfTabl', Rev: 2, Len: 33732 -> SSDT-3-DptfTabl.aml
+5:989  0:018    5. 6d7a4000: 'PMCT', 'LGPC', Rev: 2, Len: 83 -> PMCT.aml
+6:006  0:017    6. 6d747000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12742 -> SSDT-4-SaSsdt.aml
+6:024  0:017    7. 6d746000: 'ECDT', 'LGPC', Rev: 1, Len: 105 -> ECDT.aml
+6:042  0:017    8. 6d744000: 'HPET', 'LGPC', Rev: 1, Len: 56 -> HPET.aml
+6:059  0:017    9. 6d743000: 'APIC', 'LGPC', Rev: 3, Len: 300 -> APIC.aml
+6:079  0:019    10. 6d742000: 'MCFG', 'LGPC', Rev: 1, Len: 60 -> MCFG.aml
+6:096  0:017    11. 6d73f000: 'SSDT', 'CnlU_Rvp', Rev: 2, Len: 10774 -> SSDT-5-CnlU_Rvp.aml
+6:113  0:017    12. 6d6fc000: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 274 -> SSDT-6-Ther_Rvp.aml
+6:131  0:017    13. 6d6f9000: 'SSDT', 'xh_whld4', Rev: 2, Len: 11005 -> SSDT-7-xh_whld4.aml
+6:148  0:017    14. 6d6f8000: 'BOOT', 'LGPC', Rev: 1, Len: 40 -> BOOT.aml
+6:165  0:017    15. 6d6f7000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 1114 -> SSDT-8-Tpm2Tabl.aml
+6:183  0:017    16. 6d6f6000: 'SSDT', 'MeSsdt', Rev: 2, Len: 70 -> SSDT-9-MeSsdt.aml
+6:203  0:020    17. 6d6f5000: 'TPM2', 'LGPC', Rev: 3, Len: 52 -> TPM2.aml
+6:221  0:017    18. 6f8fe000: 'UEFI', 'LGPC', Rev: 1, Len: 66 -> UEFI.aml
+6:238  0:017    19. 6d6f2000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 6101 -> SSDT-10-UsbCTabl.aml
+6:255  0:017    20. 6d6f1000: 'LPIT', 'LGPC', Rev: 1, Len: 92 -> LPIT.aml
+6:273  0:017    21. 6d6f0000: 'WSMT', 'LGPC', Rev: 1, Len: 40 -> WSMT.aml
+6:290  0:017    22. 6d6ee000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 5119 -> SSDT-11-TbtTypeC.aml
+6:308  0:017    23. 6d6ed000: 'DBGP', 'LGPC', Rev: 1, Len: 52 -> DBGP.aml
+6:325  0:017    24. 6d6ec000: 'DBG2', 'LGPC', Rev: 0, Len: 84 -> DBG2.aml
+6:342  0:017    25. 6d6eb000: 'POAT', 'LGPC', Rev: 3, Len: 85 -> POAT.aml
+6:360  0:017    26. 6d6e9000: 'BATB', 'LGPC', Rev: 2, Len: 74 -> BATB.aml
+6:377  0:017    27. 6b8e7000: 'DMAR', 'LGPC', Rev: 1, Len: 168 -> DMAR.aml
+6:397  0:019    28. 6b8e1000: 'FPDT', 'LGPC', Rev: 1, Len: 68 -> FPDT.aml
+6:415  0:017    29. 6b8e0000: 'BGRT', 'LGPC', Rev: 1, Len: 56 -> BGRT.aml
+6:433  0:017    30. 6f8fd000: 'UEFI', 'LGPC', Rev: 1, Len: 278 -> UEFI.aml
+6:450  0:017    Tables in Rsdt: 31
+6:450  0:000    0. 6d745000: 'FACP', 'LGPC', Rev: 6, Len: 276
+6:450  0:000        (Dsdt: 6D6FD000, Facs: 6FA0C000, XDsdt: 6d6fd000, XFacs: 0)
+6:450  0:000        6d6fd000: 'DSDT', 'LGPC', Rev: 2, Len: 268018
+6:453  0:003        6fa0c000: 'FACS', Ver: 2, Len: 64
+6:453  0:000    1. 6d7e9000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6940
+6:453  0:000    2. 6d7e8000: 'SSDT', 'XnSsdt', Rev: 2, Len: 3642
+6:453  0:000    3. 6d7e3000: 'SSDT', 'FwiTable', Rev: 1, Len: 18082
+6:453  0:000    4. 6d7a5000: 'SSDT', 'DptfTabl', Rev: 2, Len: 33732
+6:453  0:000    5. 6d7a4000: 'PMCT', 'LGPC', Rev: 2, Len: 83
+6:453  0:000    6. 6d747000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12742
+6:453  0:000    7. 6d746000: 'ECDT', 'LGPC', Rev: 1, Len: 105
+6:453  0:000    8. 6d744000: 'HPET', 'LGPC', Rev: 1, Len: 56
+6:453  0:000    9. 6d743000: 'APIC', 'LGPC', Rev: 3, Len: 300
+6:453  0:000    10. 6d742000: 'MCFG', 'LGPC', Rev: 1, Len: 60
+6:453  0:000    11. 6d73f000: 'SSDT', 'CnlU_Rvp', Rev: 2, Len: 10774
+6:453  0:000    12. 6d6fc000: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 274
+6:453  0:000    13. 6d6f9000: 'SSDT', 'xh_whld4', Rev: 2, Len: 11005
+6:453  0:000    14. 6d6f8000: 'BOOT', 'LGPC', Rev: 1, Len: 40
+6:453  0:000    15. 6d6f7000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 1114
+6:453  0:000    16. 6d6f6000: 'SSDT', 'MeSsdt', Rev: 2, Len: 70
+6:453  0:000    17. 6d6f5000: 'TPM2', 'LGPC', Rev: 3, Len: 52
+6:453  0:000    18. 6f8fe000: 'UEFI', 'LGPC', Rev: 1, Len: 66
+6:453  0:000    19. 6d6f2000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 6101
+6:453  0:000    20. 6d6f1000: 'LPIT', 'LGPC', Rev: 1, Len: 92
+6:453  0:000    21. 6d6f0000: 'WSMT', 'LGPC', Rev: 1, Len: 40
+6:453  0:000    22. 6d6ee000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 5119
+6:453  0:000    23. 6d6ed000: 'DBGP', 'LGPC', Rev: 1, Len: 52
+6:453  0:000    24. 6d6ec000: 'DBG2', 'LGPC', Rev: 0, Len: 84
+6:453  0:000    25. 6d6eb000: 'POAT', 'LGPC', Rev: 3, Len: 85
+6:453  0:000    26. 6d6e9000: 'BATB', 'LGPC', Rev: 2, Len: 74
+6:453  0:000    27. 6b8e7000: 'DMAR', 'LGPC', Rev: 1, Len: 168
+6:453  0:000    28. 6b8e1000: 'FPDT', 'LGPC', Rev: 1, Len: 68
+6:453  0:000    29. 6b8e0000: 'BGRT', 'LGPC', Rev: 1, Len: 56
+6:453  0:000    30. 6f8fd000: 'UEFI', 'LGPC', Rev: 1, Len: 278
+6:453  0:000  Found UEFI Acpi 1.0 RSDP at 6fb0d000
+6:453  0:000  Printing ACPI tables from RSDP 6fb0d000 ...
+6:453  0:000   6fb0d000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+6:453  0:000    (Rsdt: 6fb0a000)
+6:453  0:000    6fb0a000: 'RSDT', 'LGPC', Rev: 1, Len: 160
+6:453  0:000    Tables in Rsdt: 31
+6:453  0:000    0. 6d745000: 'FACP', 'LGPC', Rev: 6, Len: 276
+6:453  0:000        (Dsdt: 6D6FD000, Facs: 6FA0C000, XDsdt: 6d6fd000, XFacs: 0)
+6:453  0:000        6d6fd000: 'DSDT', 'LGPC', Rev: 2, Len: 268018
+6:457  0:003        6fa0c000: 'FACS', Ver: 2, Len: 64
+6:457  0:000    1. 6d7e9000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6940
+6:457  0:000    2. 6d7e8000: 'SSDT', 'XnSsdt', Rev: 2, Len: 3642
+6:457  0:000    3. 6d7e3000: 'SSDT', 'FwiTable', Rev: 1, Len: 18082
+6:457  0:000    4. 6d7a5000: 'SSDT', 'DptfTabl', Rev: 2, Len: 33732
+6:457  0:000    5. 6d7a4000: 'PMCT', 'LGPC', Rev: 2, Len: 83
+6:457  0:000    6. 6d747000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12742
+6:457  0:000    7. 6d746000: 'ECDT', 'LGPC', Rev: 1, Len: 105
+6:457  0:000    8. 6d744000: 'HPET', 'LGPC', Rev: 1, Len: 56
+6:457  0:000    9. 6d743000: 'APIC', 'LGPC', Rev: 3, Len: 300
+6:457  0:000    10. 6d742000: 'MCFG', 'LGPC', Rev: 1, Len: 60
+6:457  0:000    11. 6d73f000: 'SSDT', 'CnlU_Rvp', Rev: 2, Len: 10774
+6:457  0:000    12. 6d6fc000: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 274
+6:457  0:000    13. 6d6f9000: 'SSDT', 'xh_whld4', Rev: 2, Len: 11005
+6:457  0:000    14. 6d6f8000: 'BOOT', 'LGPC', Rev: 1, Len: 40
+6:457  0:000    15. 6d6f7000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 1114
+6:457  0:000    16. 6d6f6000: 'SSDT', 'MeSsdt', Rev: 2, Len: 70
+6:457  0:000    17. 6d6f5000: 'TPM2', 'LGPC', Rev: 3, Len: 52
+6:457  0:000    18. 6f8fe000: 'UEFI', 'LGPC', Rev: 1, Len: 66
+6:457  0:000    19. 6d6f2000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 6101
+6:457  0:000    20. 6d6f1000: 'LPIT', 'LGPC', Rev: 1, Len: 92
+6:457  0:000    21. 6d6f0000: 'WSMT', 'LGPC', Rev: 1, Len: 40
+6:457  0:000    22. 6d6ee000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 5119
+6:457  0:000    23. 6d6ed000: 'DBGP', 'LGPC', Rev: 1, Len: 52
+6:457  0:000    24. 6d6ec000: 'DBG2', 'LGPC', Rev: 0, Len: 84
+6:457  0:000    25. 6d6eb000: 'POAT', 'LGPC', Rev: 3, Len: 85
+6:457  0:000    26. 6d6e9000: 'BATB', 'LGPC', Rev: 2, Len: 74
+6:457  0:000    27. 6b8e7000: 'DMAR', 'LGPC', Rev: 1, Len: 168
+6:457  0:000    28. 6b8e1000: 'FPDT', 'LGPC', Rev: 1, Len: 68
+6:457  0:000    29. 6b8e0000: 'BGRT', 'LGPC', Rev: 1, Len: 56
+6:457  0:000    30. 6f8fd000: 'UEFI', 'LGPC', Rev: 1, Len: 278
