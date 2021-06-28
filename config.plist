@@ -1028,6 +1028,7 @@
 			<array>
 				<string>boot-args</string>
 				<string>ForceDisplayRotationInEFI</string>
+				<string>csr-active-config</string>
 				<string>Fkey&gt;prev-lang:kbd</string>
 			</array>
 		</dict>
